@@ -5,7 +5,7 @@ import smtplib
 today = datetime.datetime.now()
 year = today.year
 day_of_week = today.weekday()
-if day_of_week == 3:
+if day_of_week == 0:
     with open("quotes.txt") as file:
         read = file.readlines()
         random_quote = random.choice(read)
