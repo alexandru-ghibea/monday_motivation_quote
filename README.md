@@ -1,1 +1,1 @@
-# monday_motivation_quote
+Send a Monday motivation quote to your friends using Python
